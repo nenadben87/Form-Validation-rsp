@@ -1,0 +1,569 @@
+
+.container{
+	font-family: 'Roboto', sans-serif;
+    width: 50vw;
+    background-color: #ccccff;
+    margin: 40px;
+    border: 5px solid #b3ffff;
+    border-radius: 15px;
+    color: #669999;
+}
+
+.container h1{
+	margin-left: 30px;
+	margin-top: 30px;
+
+}
+
+#registrationForm{
+	margin-left: 10%;
+	font-size: 1.3em;
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type="text"]{
+	margin-left: 4%;
+	width: 350px;
+	height: 35px;
+	background-color: #cccc99;
+	font-size: 1.3em;
+	border: 3px solid #b3ffff;
+	border-radius: 7px;
+	color: #669999;
+}
+
+input[type="radio"]{
+	margin-left: 30px;
+	color: #669999;
+}
+
+#select{
+	margin-left: 15px;
+	width: 250px;
+	height: 35px;
+	background-color: #cccc99;
+	font-size: 1.3em;
+	border: 3px solid #b3ffff;
+	border-radius: 7px;
+	color: #669999;
+}
+
+input[type="checkbox"]{
+	margin-left: 30px;
+	color: #669999;
+}
+
+input[type="file"]{
+	margin-left: 30px;
+	color: #669999;
+}
+
+textarea{
+	background-color: #cccc99;
+	border: 3px solid #b3ffff;
+	border-radius: 7px;
+	color: #669999;
+}
+
+input[type="submit"]{
+	margin-left: 220px;
+	background-color: #cccc99;
+	width: 150px;
+	font-family: 'Roboto', sans-serif;
+	border: 3px solid #b3ffff;
+	border-radius: 7px;
+	font-size: 1.2em;
+	color: #669999;
+
+}
+
+span{
+	color: #ff4d4d;
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1280px){
+    .container h1{
+        margin-left: 30%;
+    }
+    
+    .container p{
+        text-align: left;
+        font-size: 13px;
+    }
+    
+    #registrationForm{
+        margin-left: 10%;
+    }
+    
+    input[type="checkbox"]{
+        margin-left: 5px;
+    }
+    
+    .chitm{
+        font-size: 0.8rem;
+        margin-left: 4%;
+    }
+    
+    textarea{
+        margin-right: 35%;
+    }
+    
+    input[type="submit"]{
+        margin-left: 30%;
+    }
+    
+}
+
+/*///////////////////////////////////////////////////*/
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .container h1{
+        margin-left: 23%;
+    }
+    
+    .container p{
+        text-align: left;
+        font-size: 13px;
+    }
+    
+    #registrationForm{
+       margin-left: 2%; 
+    }
+    
+     input[type="text"]{
+        width: 90%;
+    }
+    
+    #name-label{
+        margin-left: 4%;
+    }
+    
+    #gen-label{
+        margin-left: 4%;
+    }
+    
+    input[type="radio"]{
+        margin-left: 13%;
+    }
+    
+    #select-label{
+        margin-left: 4%;
+    }
+    
+    .chitm{
+        font-size: 0.7rem;
+        padding-right: -5%;
+    }
+    
+    textarea{
+        margin-left: 4%;
+    }
+    
+    #txt-label{
+        margin-left: 4%;
+    }
+    
+    input[type="submit"]{
+        margin-left: 30%;
+    }
+}
+
+/*///////////////////////////////////////////////*/
+
+@media screen and (min-width: 720px) and (max-width: 768px){
+    
+    .container h1{
+        margin-left: 15%;
+    }
+    
+    .container p{
+        text-align: left;
+        font-size: 12px;
+    }
+    
+    input[type="text"]{
+        width: 100%;
+        margin-left: -6%;
+    }
+    
+    #name-label{
+        margin-left: -3%;
+    }
+    
+    #select{
+       margin-left: -6%; 
+    }
+    
+    #select-label{
+        margin-left: -3%;
+    }
+    
+    .chitm{
+        font-size: 0.7rem;
+        padding: 5%;
+        display: block;
+    }
+    
+    #checkbox-label{
+        margin-left: -7%;
+    }
+    
+    input[type="file"]{
+        margin-left: 5%;
+    }
+    
+    input[type="submit"]{
+        margin-left: 20%;
+    }
+    
+    span{
+        font-size: 0.8em;
+    }
+}
+
+
+/*//////////////////////////////////////*/
+
+@media screen and (min-width: 375px) and (max-width: 720px){
+    
+    .container{
+        width: 90%;
+    }
+    
+    .container h1{
+        margin-left: 15%;
+        font-size: 1.7em;
+    }
+    
+    .container p{
+        text-align: left;
+        font-size: 12px;
+    }
+    
+    input[type="text"]{
+        width: 100%;
+        margin-left: -4%;
+        height: 3vh;
+        font-size: 1em;
+    }
+    
+    input[type="radio"]{
+        margin-left: 2%;
+    }
+    
+    .gender{
+        font-size: 0.9rem;
+        padding: 2%;
+    }
+    
+    #name-label{
+        margin-left: -3%;
+    }
+    
+     #select{
+       margin-left: 1%;
+       height: 4vh;
+       font-size: 0.9em;
+       padding-left: 5%;
+    }
+    
+    #select-label{
+        margin-left: -3%;
+    }
+    
+    .chitm{
+        font-size: 0.7rem;
+        padding: 5%;
+        display: block;
+    }
+    
+    #checkbox-label{
+        margin-left: -7%;
+    }
+    
+    input[type="file"]{
+        margin-left: 5%;
+    }
+    
+    input[type="submit"]{
+        margin-left: 20%;
+    }
+    
+    textarea{
+        width: 90%;
+    }
+    
+}
+
+
+/*//////////////////////////////////////*/
+
+@media screen and (min-width: 360px) and (max-width: 375px){
+    
+        .container{
+        width: 90%;
+    }
+    
+    .container h1{
+        margin-left: 15%;
+        font-size: 1.7em;
+    }
+    
+    .container p{
+        text-align: left;
+        font-size: 12px;
+    }
+    
+    input[type="text"]{
+        width: 100%;
+        margin-left: -4%;
+        height: 3vh;
+        font-size: 1em;
+    }
+    
+    input[type="radio"]{
+        margin-left: 2%;
+    }
+    
+    .gender{
+        font-size: 0.9rem;
+        padding: 2%;
+    }
+    
+    #name-label{
+        margin-left: -3%;
+    }
+    
+     #select{
+       margin-left: 1%;
+       height: 4vh;
+       font-size: 0.9em;
+       
+       padding-left: 5%;
+    }
+    
+    #select-label{
+        margin-left: -3%;
+    }
+    
+    .chitm{
+        font-size: 0.7rem;
+        padding: 5%;
+        display: block;
+    }
+    
+    #checkbox-label{
+        margin-left: -7%;
+    }
+    
+    input[type="file"]{
+        margin-left: 5%;
+    }
+    
+    input[type="submit"]{
+        margin-left: 20%;
+    }
+    
+    textarea{
+        width: 90%;
+    }
+}
+
+
+
+/*//////////////////////////////////////*/
+
+@media screen and (min-width: 320px) and (max-width: 360px){
+    
+    .container{
+        width: 90%;
+    }
+    
+    .container h1{
+        margin-left: 10%;
+        font-size: 1.7em;
+    }
+    
+    .container p{
+        text-align: left;
+        font-size: 12px;
+    }
+    
+    input[type="text"]{
+        width: 100%;
+        margin-left: -4%;
+        height: 3vh;
+        font-size: 1em;
+    }
+    
+    input[type="radio"]{
+        margin-left: 2%;
+    }
+    
+    .gender{
+        font-size: 0.9rem;
+        padding: 2%;
+    }
+    
+    #name-label{
+        margin-left: -3%;
+    }
+    
+     #select{
+       margin-left: -8%;
+       height: 4vh;
+       font-size: 0.9em;
+       padding-left: 5%;
+    }
+    
+    #select-label{
+        margin-left: -3%;
+    }
+    
+    .chitm{
+        font-size: 0.7rem;
+        padding: 5%;
+        display: block;
+    }
+    
+    #checkbox-label{
+        margin-left: -7%;
+    }
+    
+    input[type="file"]{
+        margin-left: 5%;
+    }
+    
+    input[type="submit"]{
+        margin-left: 20%;
+    }
+    
+    textarea{
+        width: 90%;
+    }
+    
+    span{
+        font-size: 0.8em;
+    }
+}
+
+
+/*//////////////////////////////////////*/
+
+@media screen and (min-width: 294px) and (max-width: 320px){
+    
+     .container{
+        width: 90%;
+    }
+    
+    .container h1{
+        margin-left: 10%;
+        font-size: 1.6em;
+    }
+    
+    .container p{
+        text-align: left;
+        font-size: 12px;
+    }
+    
+    input[type="text"]{
+        width: 100%;
+        margin-left: -4%;
+        height: 3vh;
+        font-size: 1em;
+    }
+    
+    input[type="radio"]{
+        margin-left: 2%;
+    }
+    
+    .gender{
+        font-size: 0.9rem;
+        padding: 2%;
+    }
+    
+    #name-label{
+        margin-left: -3%;
+    }
+    
+     #select{
+       margin-left: -8%;
+       height: 4vh;
+       font-size: 0.9em;
+       padding-left: 5%;
+       width: 90%;
+    }
+    
+    #select-label{
+        margin-left: -3%;
+    }
+    
+    .chitm{
+        font-size: 0.7rem;
+        padding: 5%;
+        display: block;
+    }
+    
+    #checkbox-label{
+        margin-left: -7%;
+    }
+    
+    input[type="file"]{
+        margin-left: 5%;
+    }
+    
+    input[type="submit"]{
+        margin-left: 20%;
+    }
+    
+    textarea{
+        width: 90%;
+    }
+    
+    span{
+        font-size: 0.8em;
+    }
+}
+
+
+/*//////////////////////////////////////*/
+
+@media screen and (min-width: 1536px) and (max-width: 1920px){
+    
+     .container h1{
+        margin-left: 30%;
+    }
+    
+    .container p{
+        text-align: left;
+        font-size: 16px;
+    }
+    
+    #registrationForm{
+        margin-left: 10%;
+    }
+    
+    input[type="checkbox"]{
+        margin-left: 3%;
+    }
+    
+    .chitm{
+        font-size: 0.8rem;
+        margin-left: 4%;
+    }
+    
+    textarea{
+        margin-right: 35%;
+    }
+    
+    input[type="submit"]{
+        margin-left: 30%;
+    }
+}
+    
+   
+
+
+
+
